@@ -13,3 +13,5 @@ export const StandardTuning = [
     ['Eb', 'Bb', 'Gb', 'Db', 'Ab', 'Eb'],
     ['E',  'B',  'G',  'D',  'A',  'E']
 ];
+
+export const ChromaticNotes = ['Ab', 'A', 'Bb', 'B', 'C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G'];
