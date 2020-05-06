@@ -4,7 +4,15 @@ import './Fretboard.css';
 const Fret = props => {
     return (
         <div className="fret">
-            { props.notes.map((note, index) => <div className="note" key={index}>{note}</div>)}
+            { props.notes.map((note, index) => {
+                return (
+                    <div>
+                        <div className="note" key={index}>{note}</div>
+                        <div className="string"></div>
+                    </div>
+                    );
+                })
+            }
         </div>
     );
 };
